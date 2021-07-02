@@ -136,19 +136,32 @@
   <p>Введите  свой логин и пароль.</p>
   <form class="login-form"action="https://echo.htmlacademy.ru"method="post">
     <p>
+      <label class="visually-hidden"for="user-login">Логин</label>
       <input class="login-icon-user"type="text"name="login"placeholder="Логин">
     </p>
     <p>
+      <label class="visually-hidden"for="user-pasword">Пароль</label>
       <input class="login-icon-password"type="pasword"name="pasword"placeholder="Пароль">
     </p>
+    <class="login-password-info">
+      <label class="login-chekbox">
     <input type="chekbox"name="remember"class="visually-hidden">
+    <span class="chekbox-indicator"></span>
     Запомните меня
+      </label>
 <a class="restore"href="#">Я забыл пароль!</a>
+  </p>
+  <button class="button"type="submit">Войти</button>
 </form>
   <Span class="modal-close">x</Span>
 </section>
 
 <section class="modal modal-map">
   <h2 class="visual hidden">Как до нас добраться</h2>
+  <p>
+    <img src="img/map.jpg"width="780"height="560"alt="Офис компании по адресу ул.Большая Конюшенная 19/8, Санкт-Петербург">
+    </p>
   <span class="modal-close">x</span>
   </section>
+  </body>
+  </html>
