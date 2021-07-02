@@ -47,7 +47,7 @@
      </section>
 
      <section class="news">
-       <h2>Новости</h2>
+       <!-- <h2>Новости</h2> -->
        <ul class="new list">
          <li class="news item">
            <p>НАм наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
@@ -89,7 +89,25 @@
 <section class="appointmant">
   <h2>Записаться</h2>
   <p class="appointmant-info">Укажите желауемую дату и время и мы с вами свяжемся для подтверждения брони</p>
-  <!--Здесь будет форма-->
+  <form class="appointmant-form"action="https://echo.ahtmlacademy.ru"mthod="post">
+  <p class="appointmant-item">
+<label for="appointmant-date">Дата</label>
+<input id="appointmant-date"type="text"name="data"value=""placeholder="08.10.2017">
+  </p>
+  <p class="appointmant-item">
+  <label for="appointmant-item">Время</label>
+    <input type="text"name="time"value=""placeholder="10:00">
+    </p>
+    <p class="appointmant-item">
+      <label for="appointmant-name">Ваше имя</label>
+    <input type="text"name="name"value=""placeholder="Борода">
+    </p>
+    <p class="appointmant-item">
+  <label for="appointmant-phone">Телефон</label>
+<input type="tel"name="phone"value=""placeholder="+7 123 456 78 90">
+</p>
+<button class="button" type="submit">Отправить</button>
+</form>
 </section>
 </main>
 <footer class="main footer">
