@@ -1,0 +1,26 @@
+body {
+margin: 0;
+padding: 0;
+
+font-family:"PT Sans Narrow",Arial,sans-serif;
+font-size: 14px;
+line-height: 24px;
+font-weight: 700;
+color:#ffffff;
+text-transform: uppercase;
+
+background-color: #000000;
+background-image: -moz-element();
+background-position: top centr;
+background-repeat: no-repeat;
+}
+a {
+    text-decoration:none;    
+}
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color:#ffffff;
+background-color: #000000;
+}
